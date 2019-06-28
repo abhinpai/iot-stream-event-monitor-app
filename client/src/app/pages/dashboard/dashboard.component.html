@@ -1,0 +1,78 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<nav class="navbar navbar-light bg-light">
+  <img
+    src="../../../assets/Honeywell_Logo_RGB_Red.png"
+    width="150"
+    height="50"
+    class="d-inline-block align-top"
+    alt=""
+  />
+  <form class="form-inline">
+    <button
+    style="display: none"
+      #loginButton
+      class="btn btn-outline-success my-2 my-sm-0"
+      type="submit"
+      (click)="increase()"
+    >
+      Refresh
+    </button>
+  </form>
+</nav>
+
+<div>
+  <div class="header-div">
+    <h1>
+      Access-Card Monitoring
+    </h1>
+  </div>
+  <div class="container">
+    <div class="row" *ngIf="true">
+      <div class="col-md-3 col-class">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Device 1</h5>
+            <h6 class="card-subtitle mb-2 text-muted">b1738939-268d-41d1-ad67-6ac4cccb4f48</h6>
+            <hr />
+            <div class="card-text">
+              <p>Granted Access: {{ d1Granted.value }}</p>
+              <p>Deny Access: {{ device1.denayGrant }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-class">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Device 2</h5>
+            <h6 class="card-subtitle mb-2 text-muted">bd2a5ef7-1013-4448-93e8-c73253161308</h6>
+            <hr />
+            <div class="card-text">
+              <p>Granted Access: {{ device2.granted }}</p>
+              <p>Deny Access: {{ device2.denayGrant }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-class">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Device 3</h5>
+            <h6 class="card-subtitle mb-2 text-muted">ac95dc85-3f0c-4662-b4c4-08759f70ca6a</h6>
+            <hr />
+            <div class="card-text">
+              <p>Granted Access: {{ device3.granted }}</p>
+              <p>Deny Access: {{ device3.denayGrant }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="empty-state-div" *ngIf="false">
+    <img src="https://img.icons8.com/ios/50/000000/info.png" />
+    <h2>No Device Data Found</h2>
+  </div>
+</div>

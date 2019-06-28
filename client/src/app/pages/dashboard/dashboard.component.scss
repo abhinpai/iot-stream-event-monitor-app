@@ -1,0 +1,42 @@
+.header-div {
+  padding: 16px;
+  & > h1 {
+    font-weight: 300 !important;
+  }
+}
+
+.bg-light{
+    background-color: #e7ebef !important;
+}
+
+.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 24px;
+  max-width: 100% !important;
+}
+
+.row {
+  margin-right: 0 !important;
+}
+
+.col-class {
+  margin-bottom: 14px !important;
+}
+
+.card {
+  margin: 0 12px;
+
+  & .card-subtitle{
+    color: #6c757d6b !important;
+    font-size: 12px;
+  }
+}
+
+.empty-state-div{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

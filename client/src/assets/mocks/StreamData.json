@@ -1,0 +1,37 @@
+[
+    {
+        "name": "b1738939-268d-41d1-ad67-6ac4cccb4f48",
+        "grantCount": 12,
+        "isActive": true,
+        "grantDenyCount": 20,
+        "lastActiveTime": "2019-06-27T09:54:20.253Z"
+    },
+    {
+        "name": "bd2a5ef7-1013-4448-93e8-c73253161308",
+        "grantCount": 551,
+        "isActive": true,
+        "grantDenyCount": 90,
+        "lastActiveTime": "2019-06-27T09:54:20.253Z"
+    },
+    {
+        "name": "ac95dc85-3f0c-4662-b4c4-08759f70ca6a",
+        "grantCount": 932,
+        "isActive": true,
+        "grantDenyCount": 367,
+        "lastActiveTime": "2019-06-27T09:54:20.253Z"
+    },
+    {
+        "name": "001738f3-2203-40b1-9f13-b7a885eb7718",
+        "grantCount": 789,
+        "isActive": true,
+        "grantDenyCount": 100,
+        "lastActiveTime": "2019-06-27T09:54:20.253Z"
+    },
+    {
+        "name": "04b0b260-5e38-4b87-9f87-8ccd8c192062",
+        "grantCount": 100,
+        "isActive": true,
+        "grantDenyCount": 200,
+        "lastActiveTime": "2019-06-27T09:54:20.253Z"
+    }
+]
