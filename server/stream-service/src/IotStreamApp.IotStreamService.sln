@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotStreamApp.IotStreamService", "production\IotStreamApp.IotStreamService\IotStreamApp.IotStreamService.csproj", "{00F63543-9CAD-4FD9-A06D-135610A7A203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "production", "production", "{60B145DB-21E2-4B82-A7C7-DB3137897767}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10BA4EE2-A404-4C8D-8485-421590F4BB58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration", "integration", "{16965258-5AA6-493D-A693-3ACAB9CF775E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offering.Pipeline.TodoService.Integration.Tests", "test\integration\Offering.Pipeline.TodoService.Integration.Tests\Offering.Pipeline.TodoService.Integration.Tests.csproj", "{DF0CBCB3-9198-46DD-A115-6A78820E0482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{AD4FC5CB-C0B0-4F0B-84E2-3337CA276342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Offering.Pipeline.TodoService.Tests", "test\unit\Offering.Pipeline.TodoService.Tests\Offering.Pipeline.TodoService.Tests.csproj", "{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F63543-9CAD-4FD9-A06D-135610A7A203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F63543-9CAD-4FD9-A06D-135610A7A203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F63543-9CAD-4FD9-A06D-135610A7A203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F63543-9CAD-4FD9-A06D-135610A7A203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0CBCB3-9198-46DD-A115-6A78820E0482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0CBCB3-9198-46DD-A115-6A78820E0482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0CBCB3-9198-46DD-A115-6A78820E0482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0CBCB3-9198-46DD-A115-6A78820E0482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00F63543-9CAD-4FD9-A06D-135610A7A203} = {60B145DB-21E2-4B82-A7C7-DB3137897767}
+		{16965258-5AA6-493D-A693-3ACAB9CF775E} = {10BA4EE2-A404-4C8D-8485-421590F4BB58}
+		{DF0CBCB3-9198-46DD-A115-6A78820E0482} = {16965258-5AA6-493D-A693-3ACAB9CF775E}
+		{AD4FC5CB-C0B0-4F0B-84E2-3337CA276342} = {10BA4EE2-A404-4C8D-8485-421590F4BB58}
+		{5A9902D9-6D4F-4EAE-89C0-C713F78CBB98} = {AD4FC5CB-C0B0-4F0B-84E2-3337CA276342}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA99D52-51B5-482D-870E-76354FA9AD6E}
+	EndGlobalSection
+EndGlobal

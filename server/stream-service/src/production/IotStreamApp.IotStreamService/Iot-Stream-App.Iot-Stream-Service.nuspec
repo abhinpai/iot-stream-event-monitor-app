@@ -1,0 +1,10 @@
+<package>
+  <metadata>
+    <id>Honeywell.Iot-Stream-App.Iot-Stream-Service</id>
+    <version>$version$</version>
+    <authors>[email]</authors>
+    <owners>[email]</owners>
+    <description>DotNetCore offering project library</description>
+    <tags>CE DevOps Template</tags>
+  </metadata>
+</package>
