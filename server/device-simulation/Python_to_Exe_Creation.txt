@@ -1,0 +1,14 @@
+# All these lines have to be run on the prompt (cmd)
+cd C:\Innovation_Hackathon
+
+# Creating .spec file is usually one time activity
+C:\Innovation_Hackathon>pyi-makespec --onefile  Device_Simulator_v6.py
+
+# The following line of code needs to be executed everytime you make any changes in python code
+C:\Innovation_Hackathon>C:\Tools\Python\Anaconda36\Scripts\pyinstaller --onefile Device_Simulator_v6.spec
+
+# The exe gets generated in a folder named "dist"
+
+# To run the exe, use the following
+C:\Innovation_Hackathon\dist>Device_Simulator_v6.exe 3 ""
+
